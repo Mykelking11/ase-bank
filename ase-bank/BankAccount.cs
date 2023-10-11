@@ -2,8 +2,14 @@
 
 namespace ase_bank
 {
+    /// <summary>
+    /// a class for bank account
+    /// </summary>
     public class BankAccount
     {
+        /// <summary>
+        /// stores the customer name, balance and checks if the account is frozen.
+        /// </summary>
         private string m_customerName;
 
         private double m_balance;
